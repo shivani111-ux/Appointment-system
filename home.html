@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unity Hospital | Home</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card {
+            border: 3px solid #007bff;
+            transition: transform 0.3s ease-in-out;
+            width: 250px;
+            height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+
+        .card:hover {
+            transform: scale(1.1);
+        }
+
+        .footer {
+            background-color: #007bff;
+            color: black;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Unity Hospital</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="doctors.html">Doctors</a></li>
+                  <!-- <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>--> 
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="registration.html">Registration</a></li>
+                    <li class="nav-item"><a class="nav-link" href="appointment.html">Appointment</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="container my-5 text-center">
+        <h1>Welcome to Unity Hospital</h1>
+        <p>Your health is our top priority.</p>
+        <a href="appointment.html" class="btn btn-primary btn-lg">Book an Appointment</a>
+    </section>
+
+    <section id="about" class="container my-5">
+        <h2 class="text-center">About Us</h2>
+        <p class="text-center">Unity Hospital is dedicated to providing top-quality healthcare with state-of-the-art
+            technology and experienced professionals.</p>
+    </section>
+
+    <section id="services" class="container my-5">
+        <h2 class="text-center">Our Services</h2>
+        <div class="d-flex justify-content-center gap-4 flex-wrap">
+            <div class="card p-3">
+                <h5>Emergency Care</h5>
+                <p>24/7 emergency support with top medical professionals.</p>
+            </div>
+            <div class="card p-3">
+                <h5>Advanced Diagnostics</h5>
+                <p>Cutting-edge imaging and laboratory services.</p>
+            </div>
+            <div class="card p-3">
+                <h5>Experienced Doctors</h5>
+                <p>Highly skilled medical professionals available round the clock.</p>
+            </div>
+            <div class="card p-3">
+                <h5>Pharmacy</h5>
+                <p>Well-stocked pharmacy with all essential medications.</p>
+            </div>
+            <div class="card p-3">
+                <h5>24/7 Ambulance</h5>
+                <p>Rapid emergency response services for critical situations.</p>
+            </div>
+            <div class="card p-3">
+                <h5>Patient Counseling</h5>
+                <p>Professional counseling for mental and emotional well-being.</p>
+            </div>
+            <div class="card p-3">
+                <h5>Maternity Services</h5>
+                <p>Comprehensive care for expecting mothers and newborns.</p>
+            </div>
+            <div class="card p-3">
+                <h5>Rehabilitation Center</h5>
+                <p>Specialized therapy for faster recovery and wellness.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container my-5">
+        <h2 class="text-center">Contact Us</h2>
+        <p class="text-center">For any inquiries, call us at +1234567890 or email us at contact@unityhospital.com.</p>
+        <form class="w-50 mx-auto mt-4">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 My Clinic. All rights reserved.</p>
+            <p>
+                <a href="#">Privacy Policy</a> |
+                <a href="#">Terms of Service</a> |
+                <a href="#">Contact Us</a>
+            </p>
+        </div>
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
